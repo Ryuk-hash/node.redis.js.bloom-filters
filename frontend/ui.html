@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bloom Filters</title>
+  </head>
+
+  <body style="text-align: center">
+    <h1>Bloom Filters</h1>
+
+    <div style="display: flex; justify-content: space-evenly">
+      <div>
+        <p><b>Add to Bloom Filter</b></p>
+        <input id="addFilterInput" type="text" placeholder="Enter your filter value here" />
+        <button id="addFilterBtn">Add to filter</button>
+      </div>
+
+      <div>
+        <p><b>Search in Bloom Filter</b></p>
+        <input id="searchFilterInput" type="text" placeholder="Enter your search value here" />
+        <button id="searchFilterBtn">Search in filter</button>
+      </div>
+    </div>
+
+    <button id="clearInputBtn" style="margin-top: 30px; margin-bottom: 15px">Clear all inputs</button>
+
+    <h3>Bloom Filter Info</h3>
+    <div id="bloomFilterInfo"></div>
+
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
