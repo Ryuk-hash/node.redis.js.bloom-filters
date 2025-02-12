@@ -8,6 +8,8 @@ This project implements a Bloom Filter using Redis and Express.js to efficiently
 - Express.js backend with endpoints to add and check values in the Bloom filter.
 - Frontend interface to interact with the Bloom filter.
 
+## [Bloom Filter Examples - Node](https://github.com/redis/node-redis/blob/master/examples/bloom-filter.js)
+
 ## Installation
 
 ### Prerequisites
